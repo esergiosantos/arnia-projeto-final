@@ -1,0 +1,26 @@
+body {
+  background-image: url(../img/banner-index.png);
+  background-color: #502b6b;
+  background-size: 190em;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+}
+.divIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 300px auto;
+}
+.divIndex button {
+  margin: 50px;
+  width: 550px;
+  height: 72px;
+  padding: 10px;
+  background-color: #dcb6f8;
+  color: #502b6b;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 16px;
+  font-size: 25px;
+}

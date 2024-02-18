@@ -1,0 +1,60 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Iphone 15",
+      "preco": "20",
+      "descricao": "Apple iPhone 15 (128 GB) — Rosa",
+      "imagem": "https://m.media-amazon.com/images/I/41RpmPYWXLL._AC_SX679_.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Samsung Galaxy S24 Ultra",
+      "preco": "30",
+      "descricao": "Smartphone Samsung Galaxy S24 Ultra, Galaxy AI, Selfie de 12MP, Tela de 6.8 1-120Hz 512GB 12GB RAM - Titânio Preto",
+      "imagem": "https://m.media-amazon.com/images/I/71PazrXqw8L._AC_SX679_.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Notebook Gamer Dell G15",
+      "preco": "15",
+      "descricao": "Notebook Gamer Dell G15-i1300-A20P 15.6 FHD 13ª Geração Intel Core i5 8GB 512GB SSD NVIDIA RTX 3050 Windows 11",
+      "imagem": "https://m.media-amazon.com/images/I/61NR1TjDpgL._AC_SX679_.jpg"
+    },
+    {
+      "id": 4,
+      "nome": "Smart TV Samsung 50 4K",
+      "preco": "20",
+      "descricao": "SAMSUNG Smart TV Crystal 50 4K UHD CU7700 - Alexa built in, Samsung Gaming Hub",
+      "imagem": "https://m.media-amazon.com/images/I/718XXFlW4gL._AC_SL1000_.jpg"
+    }
+    
+  ],
+  "resgates": [
+    {
+      "id": "73a0",
+      "produtoId": 2,
+      "nome": "Samsung Galaxy S24 Ultra",
+      "imagem": "https://m.media-amazon.com/images/I/71PazrXqw8L._AC_SX679_.jpg",
+      "joias": "30",
+      "horario": "14 de fevereiro"
+    },
+    {
+      "id": "3f46",
+      "produtoId": 1,
+      "nome": "Iphone 15",
+      "imagem": "https://m.media-amazon.com/images/I/41RpmPYWXLL._AC_SX679_.jpg",
+      "joias": "20",
+      "horario": "14 de fevereiro"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "login": "admin",
+      "senha": "admin",
+      "nome": "Admin",
+      "email": "contato@arnia.com.br"
+    }
+  ]
+}
