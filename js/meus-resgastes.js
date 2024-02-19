@@ -40,7 +40,9 @@ const mostrarResgates = (dadosApi) => {
 
 const carregarResgates = async () => {
   // Busca os dados dos resgates do usuário da API.
-  const resposta = await fetch("http://localhost:3000/resgates");
+  const resposta = await fetch(
+    "https://api-arnia-projeto-final.onrender.com/resgates"
+  );
   console.log(resposta);
   const dados = await resposta.json();
   console.log(dados);

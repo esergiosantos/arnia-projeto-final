@@ -10,7 +10,9 @@ let dados = null;
 // Função para buscar o produto com base no ID passado como parâmetro na URL.
 const getProdutos = async (id) => {
   // Faz uma requisição à API para obter o produto com o ID especificado.
-  let resposta = await fetch(`http://localhost:3000/produtos?id=${id}`);
+  let resposta = await fetch(
+    `https://api-arnia-projeto-final.onrender.com/produtos?id=${id}`
+  );
 
   // Converte a resposta da API para JSON.
   dados = await resposta.json();

@@ -31,7 +31,9 @@ const mostrarDados = (produtos) => {
 // Esta função carrega os dados dos produtos da API e os exibe na tela.
 const carregarDados = async () => {
   // Faz uma requisição à API para obter os dados dos produtos.
-  const dados = await fetch("http://localhost:3000/produtos");
+  const dados = await fetch(
+    "https://api-arnia-projeto-final.onrender.com/produtos"
+  );
 
   // Converte a resposta da API para JSON.
   const produtos = await dados.json();

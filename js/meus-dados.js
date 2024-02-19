@@ -21,7 +21,9 @@ const mostrarDados = (resposta) => {
 
 const carregarDados = async () => {
   // Busca os dados do usuário da API.
-  const dados = await fetch("http://localhost:3000/usuarios");
+  const dados = await fetch(
+    "https://api-arnia-projeto-final.onrender.com/usuarios"
+  );
   console.log(dados);
   const resposta = await dados.json();
   console.log(resposta);

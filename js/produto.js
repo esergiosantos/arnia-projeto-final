@@ -4,7 +4,8 @@ let dados = null;
 let produtos = null;
 
 const getProdutos = async (id) => {
-  let resposta = await fetch(`http://localhost:3000/produtos?id=
+  let resposta =
+    await fetch(`https://api-arnia-projeto-final.onrender.com/produtos?id=
     ${id}`); //Busca o produto com base no ID passado como parâmetro na URL
   dados = await resposta.json(); //Transforma a resposta
   return dados[0]; //Retorna apenas um único produto, pois estamos buscando por ID e não por array de produtos
@@ -19,7 +20,7 @@ const resgatarProduto = async (id) => {
 };
 
 const salvarResgate = async () => {
-  const url = "http://localhost:3000/resgates";
+  const url = "https://api-arnia-projeto-final.onrender.com/resgates";
   const options = {
     month: "long",
     day: "numeric",
